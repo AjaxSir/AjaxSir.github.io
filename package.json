@@ -1,0 +1,17 @@
+{
+  "name": "neveSto-blog",
+  "version": "2.0.0",
+  "description": "neveSto-blog",
+  "repository": "https://github.com/AjaxSir",
+  "author": "nevesto777777@gmail.com",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vuepress dev .",
+    "start": "vuepress dev .",
+    "build": "vuepress build ."
+  },
+  "dependencies": {
+    "vuepress": "2.0.0-beta.67",
+    "vuepress-theme-reco": "2.0.0-beta.68"
+  }
+}
