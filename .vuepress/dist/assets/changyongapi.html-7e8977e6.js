@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-315c7fbe","path":"/docs/Front/vscode/changyongapi.html","title":"常用Api","lang":"en-US","frontmatter":{"title":"常用Api"},"headers":[],"git":{"createdTime":1700644040000,"updatedTime":1700644040000,"contributors":[{"name":"AjaxSir","email":"13518160587@163.com","commits":1}]},"filePathRelative":"docs/Front/vscode/常用api.md"}');export{e as data};

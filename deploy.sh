@@ -10,7 +10,8 @@
   git init
   git add -A
   git commit -m 'deploy'
-
+  git config user.name AjaxSir
+  git config user.email 13518160587@163.com
   # 如果发布到 https://<USERNAME>.github.io
   # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
