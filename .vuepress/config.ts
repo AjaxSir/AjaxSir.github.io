@@ -21,7 +21,7 @@ export default defineUserConfig({
       "/docs/": [
         {
           text: "Vscode",
-          children: ["创建.md", "常用api.md"],
+          children: ["创建.md", "常用api.md", "代码提示插件开发.md"],
         },
         {
           text: "Vue 2.x",

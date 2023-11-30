@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-32ebe542","path":"/docs/Front/vscode/chuangjian.html","title":"Vscode插件创建","lang":"en-US","frontmatter":{"title":"Vscode插件创建"},"headers":[],"git":{"createdTime":1700644040000,"updatedTime":1700644040000,"contributors":[{"name":"AjaxSir","email":"13518160587@163.com","commits":1}]},"filePathRelative":"docs/Front/vscode/创建.md"}');export{e as data};

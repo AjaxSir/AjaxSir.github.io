@@ -11,7 +11,9 @@
     "build": "vuepress build ."
   },
   "dependencies": {
+    "generator-code": "^1.8.0",
     "vuepress": "2.0.0-beta.67",
-    "vuepress-theme-reco": "2.0.0-beta.68"
+    "vuepress-theme-reco": "2.0.0-beta.68",
+    "yo": "^5.0.0"
   }
 }
