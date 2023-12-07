@@ -3,7 +3,7 @@ import type { DefaultThemeOptions } from "vuepress";
 import recoTheme from "vuepress-theme-reco";
 
 export default defineUserConfig({
-  title: "Study",
+  title: "Never Stop",
   description: "Just playing around",
   theme: recoTheme({
     style: "@vuepress-reco/style-default",
@@ -16,48 +16,51 @@ export default defineUserConfig({
     colorMode: "dark",
     lastUpdatedText: "",
     autoSetBlogCategories: true,
+    patterns: [
+      '!**/demo/**', // 不监听 temp-folder 文件夹
+    ]
     // series 为原 sidebar
-    series: {
-      "/docs/": [
-        {
-          text: "Vscode",
-          children: ["创建.md", "常用api.md", "代码提示插件开发.md"],
-        },
-        {
-          text: "Vue 2.x",
-          children: ["vue2.x"],
-        },
-        {
-          text: "Vue 3.x",
-          children: ["vue3.x"],
-        },
-        {
-          text: "React",
-          children: ["react"],
-        },
-        {
-          text: "BackEnd",
-          children: ["next"],
-        },
-      ],
-    },
-    navbar: [
-      { text: "Home", link: "/" },
-      {
-        text: "Front",
-        children: [
-          { text: "Vscode", link: "/docs/Front/vscode/创建.md" },
-          { text: "Vue", link: "/blogs/Front" },
-          { text: "React", link: "/blogs/other/guide" },
-        ],
-      },
-      {
-        text: "Backend",
-        children: [
-          { text: "next", link: "/docs/backend/next.md" },
-        ],
-      },
-    ],
+    // series: {
+    //   "/docs/": [
+    //     {
+    //       text: "Vscode",
+    //       children: ["创建.md", "常用api.md", "代码提示插件开发.md"],
+    //     },
+    //     // {
+    //     //   text: "Vue 2.x",
+    //     //   children: ["vue2.x"],
+    //     // },
+    //     {
+    //       text: "Vue",
+    //       children: ["hook使用.md"],
+    //     },
+    //     {
+    //       text: "React",
+    //       children: ["react"],
+    //     },
+    //     {
+    //       text: "BackEnd",
+    //       children: ["next"],
+    //     },
+    //   ],
+    // },
+    // navbar: [
+    //   { text: "Home", link: "/" },
+    //   {
+    //     text: "Front",
+    //     children: [
+    //       { text: "Vscode", link: "/docs/Front/vscode/创建.md" },
+    //       { text: "Vue", link: "/docs/Front/vue/hook使用.md" },
+    //       { text: "React", link: "/blogs/other/guide" },
+    //     ],
+    //   },
+    //   {
+    //     text: "Backend",
+    //     children: [
+    //       { text: "next", link: "/docs/backend/next.md" },
+    //     ],
+    //   },
+    // ],
     // bulletin: {
     //   body: [
     //     {
@@ -126,5 +129,6 @@ export default defineUserConfig({
     //   },
     // },
   }),
+  
   // debug: true,
 });
