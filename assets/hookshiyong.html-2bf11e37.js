@@ -1,0 +1,1 @@
+import{_ as o,o as t,c as a,b as e,d as s}from"./app-5351db84.js";const c={},n=e("h3",{id:"使用",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#使用","aria-hidden":"true"},"#"),s(" 使用")],-1),r=[n];function _(d,h){return t(),a("div",null,r)}const l=o(c,[["render",_],["__file","hookshiyong.html.vue"]]);export{l as default};
